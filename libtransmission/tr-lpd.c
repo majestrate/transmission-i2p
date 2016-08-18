@@ -396,7 +396,10 @@ void tr_lpdUninit (tr_session* ss)
 bool
 tr_lpdEnabled (const tr_session* ss)
 {
+  /*
     return ss && (ss == session);
+  */
+  return 0;
 }
 
 

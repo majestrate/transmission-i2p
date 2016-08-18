@@ -152,8 +152,8 @@ const char* tr_getDefaultConfigDir (const char * appname);
 const char* tr_getDefaultDownloadDir (void);
 
 
-#define TR_DEFAULT_BIND_ADDRESS_IPV4        "0.0.0.0"
-#define TR_DEFAULT_BIND_ADDRESS_IPV6             "::"
+#define TR_DEFAULT_BIND_ADDRESS_IPV4      "127.0.0.1"
+#define TR_DEFAULT_BIND_ADDRESS_IPV6            "::1"
 #define TR_DEFAULT_RPC_WHITELIST          "127.0.0.1"
 #define TR_DEFAULT_RPC_PORT_STR                "9091"
 #define TR_DEFAULT_RPC_URL_STR       "/transmission/"

@@ -418,7 +418,10 @@ tr_dhtUninit (tr_session *ss)
 bool
 tr_dhtEnabled (const tr_session * ss)
 {
+  /*
     return ss && (ss == session);
+  */
+  return 0;
 }
 
 struct getstatus_closure
